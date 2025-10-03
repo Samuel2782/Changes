@@ -1,0 +1,1 @@
+import{u as t}from"./ViewState-DzCxxm0h.js";import{L as r}from"./constants-Bt_TxKWw.js";import"./DataSyncService-BnTv72BN.js";import"./index-DY0DW88M.js";import"./Logger-CErMjlBd.js";import"./style-cpFB66wV.js";import"./appZStack-B9FmF8l5.js";const s=t("links",{views:{[r.List]:{defaultView:!0,order:1},[r.Form]:{order:2}}});export{s as default,s as useLinksViewStateStore};

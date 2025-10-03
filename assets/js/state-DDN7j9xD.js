@@ -1,0 +1,1 @@
+import{L as a}from"./LocalStorageStoreSyncedItem-kVGQtJA7.js";import{S as s,a as e,b as o}from"./constants-CHIvVb_r.js";const t=new a(s,""),n=new a(e,!1),r=new a(o,0),c=()=>r.currentValue-Date.now()>0;export{r as a,t as b,n as s,c as u};

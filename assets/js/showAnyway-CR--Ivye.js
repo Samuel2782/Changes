@@ -1,0 +1,1 @@
+import"./VueBase-EULQJZ9I.js";import{V as s}from"./index-DY0DW88M.js";const e=m.showAnyway=new(s.extend({name:"ShowAnyway",data:()=>({widgets:[]}),methods:{show(s){this.includes(s)||this.widgets.push(s)},hide(s){const e=this.widgets.indexOf(s);~e&&this.widgets.splice(e,1)},includes(s){return this.widgets.includes(s)}}}));export{e as s};
