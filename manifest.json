@@ -1,17 +1,19 @@
 {
    "action": {
-      "default_title": "Momentum"
+      "default_title": "AI Workspace",
+      "default_popup": "popup/index.html"
    },
    "background": {
-      "service_worker": "serviceWorker.js"
+      "service_worker": "serviceWorker.js",
+      "type": "module"
    },
    "chrome_url_overrides": {
       "newtab": "index.html"
    },
    "content_scripts": [ {
       "all_frames": true,
-      "js": [ "content-scripts/momoSiteInterop.js" ],
-      "matches": [ "https://*.momentumdash.com/*" ],
+      "js": [ "content-scripts/auth-interop.js" ],
+      "matches": [ "https://*.yourdomain.com/*" ],
       "run_at": "document_end"
    } ],
    "content_security_policy": {
